@@ -81,3 +81,18 @@ p1.taste("ice cream") ➞ "Sam eats the ice cream and loves it!"
 p1.taste("cheese") ➞ "Sam eats the cheese!"
 p1.taste("carrots") ➞ "Sam eats the carrots and hates it!"
 ```
+
+
+#### Task 4. Ones, Threes and Nines
+
+Given an int, figure out how many ones, threes and nines you could fit into the number.   
+You must create a class **OnesThreesNines**. You will make variables (_self.ones, self.threes, self.nines_) to do this.
+
+_Examples_  
+```plaintext
+n1 = OnesThreesNines(5)
+n1.nines ➞ 0
+n1.ones ➞ 5
+n1.threes ➞ 1
+```
+
