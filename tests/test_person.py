@@ -35,3 +35,16 @@ def test_taste3():
     assert p3.taste("apples") == "Julie eats the apples and loves it!"
     assert p3.taste("bananas") == "Julie eats the bananas and loves it!"
 
+
+def test_taste5():
+    p5 = Person("Joshua", ["ice cream", "pie", "cheese", "bananas"], ["lettuce", "apples"])
+    assert p5.taste("ice cream") == "Joshua eats the ice cream and loves it!"
+    assert p5.taste("carrots") == "Joshua eats the carrots!"
+    assert p5.taste("brocolli") == "Joshua eats the brocolli!"
+    assert p5.taste("lettuce") == "Joshua eats the lettuce and hates it!"
+    assert p5.taste("cheese") == "Joshua eats the cheese and loves it!"
+    assert p5.taste("pie") == "Joshua eats the pie and loves it!"
+    assert p5.taste("apples") == "Joshua eats the apples and hates it!"
+    assert p5.taste("bananas") == "Joshua eats the bananas and loves it!"
+
+
