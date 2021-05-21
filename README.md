@@ -117,7 +117,7 @@ _name_ will be passed in as a string and _age_, _height_, _weight_ will be integ
 
 _Examples_  
 ```plaintext
-p1 = player("David Jones", 25, 175, 75)
+p1 = Player("David Jones", 25, 175, 75)
 
 p1.get_age() ➞ "David Jones is age 25"
 p1.get_height() ➞ "David Jones is 175cm"
