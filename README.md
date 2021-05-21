@@ -49,3 +49,35 @@ calculator.multiply(10, 5) ➞ 50
 calculator.divide(10, 5) ➞ 2
 ```
 
+
+#### Task 3. Food for Everyone!
+
+Create a **Person** class which will have three properties:
+
+- Name
+- List of foods they like
+- List of foods they hate  
+
+In this class, create the method _taste()_:
+
+It will take in a food name as a string.  
+
+_Return {person_name} eats the {food_name}_.  
+
+If the food is in the person's like list, add _'and loves it!'_ to the end.  
+
+If it is in the person's hate list, add _'and hates it!'_ to the end.  
+
+If it is in neither list, simply add an _exclamation mark_ to the end.  
+
+_Notes_  
+
+A person can have an empty list for foods they hate and/or love.
+
+_Examples_  
+```plaintext
+p1 = Person("Sam", ["ice cream"], ["carrots"])
+p1.taste("ice cream") ➞ "Sam eats the ice cream and loves it!"
+p1.taste("cheese") ➞ "Sam eats the cheese!"
+p1.taste("carrots") ➞ "Sam eats the carrots and hates it!"
+```
