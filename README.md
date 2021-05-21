@@ -96,3 +96,30 @@ n1.ones ➞ 5
 n1.threes ➞ 1
 ```
 
+#### Task 5. Classes For Fetching Information on a Sports Player
+
+Create a class **Player** that takes the following four arguments for a particular football player:
+
+- name
+- age
+- height
+- weight  
+
+Also, create three functions for the class that returns the following strings:
+
+- get_age() returns "_name_ is age _age_"
+- get_height() returns "_name_ is *heigh*tcm"
+- get_weight() returns "_name_ weighs *weight*kg"
+ 
+_Notes_  
+
+_name_ will be passed in as a string and _age_, _height_, _weight_ will be integers.  
+
+_Examples_  
+```plaintext
+p1 = player("David Jones", 25, 175, 75)
+
+p1.get_age() ➞ "David Jones is age 25"
+p1.get_height() ➞ "David Jones is 175cm"
+p1.get_weight() ➞ "David Jones weighs 75kg"
+```
